@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.android.test2.MainActivity">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="16dp"
+        android:text="Hello Taiwan &lt;3!"
+        android:textColor="#ffffff"
+        android:background="#F48FB1"
+        android:textSize="45sp"/>
+
+
+    <ImageView
+        android:id="@+id/taipai"
+        android:src="@drawable/oneoone"
+        android:layout_below="@id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/text_taipai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="16dp"
+        android:layout_below="@id/hello"
+        android:text="Taipei"
+
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic"
+        android:textSize="45sp"/>
+
+    <ImageView
+        android:id="@+id/malido"
+        android:src="@drawable/mm"
+        android:layout_below="@+id/taipai"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/text_kaohsiung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="16dp"
+        android:layout_below="@id/taipai"
+        android:text="Kaohsiung"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic"
+        android:textSize="45sp"/>
+
+    <ImageView
+        android:src="@drawable/kenting"
+        android:layout_below="@id/malido"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/text_kenting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="16dp"
+        android:layout_below="@id/malido"
+        android:text="Kenting"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic"
+        android:textSize="45sp"/>
+
+</RelativeLayout>
